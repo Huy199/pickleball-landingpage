@@ -27,21 +27,21 @@ const members = [
     id: 4,
     name: "Hoàng Phương Anh",
     description: "Phòng Kế Toán",
-    image: "/assets/image/LeThiMinhLoi.JPG",
+    image: "/assets/image/HPAnh.JPG",
   },
 
   {
     id: 5,
     name: "Bùi Thị Thu Hiền",
     description: "Phòng Kế Toán",
-    image: "/assets/image/BuiThiThuHien.JPG",
+    image: "/assets/image/BTTHien.JPG",
   },
 
   {
     id: 6,
     name: "Dương Quốc Khánh",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/DuongQuocKhanh.JPG",
+    image: "/assets/image/JQK.JPG",
   },
   {
     id: 7,
