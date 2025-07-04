@@ -27,7 +27,7 @@ const members = [
     id: 4,
     name: "Hoàng Phương Anh",
     description: "Phòng Kế Toán",
-    image: "/assets/image/HoangPhuongAnh.JPG",
+    image: "/assets/image/LeThiMinhLoi.JPG",
   },
 
   {
