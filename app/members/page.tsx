@@ -1,88 +1,149 @@
 const members = [
   {
     id: 1,
-    name: "Sophia Phương Anh",
-    description:
-      "Professional esports player with 5 years of competitive experience",
-    image:
-      "https://cdnphoto.dantri.com.vn/RQI9NJKg1_st5RClRjcMuKGIeAI=/2024/10/04/461940686867167558842354607331-1728035027302.jpg",
+    name: "Đoàn Đình Dân",
+    description: "Ban Giám Đốc",
+    image: "/assets/image/DoanDinhDan.jpg",
   },
   {
     id: 2,
-    name: "Anna Leigh Waters",
-    description: "Strategic mastermind known for incredible game sense",
+    name: "Hà Viễn Dương",
+    description: "Ban Giám Đốc",
 
-    image:
-      "https://www.desertsun.com/gcdn/presto/2021/11/11/PPAS/4b1b2732-b78b-44d6-852c-92dde726ccf8-20211111_Pickleball_002.jpg",
+    image: "/assets/image/HaVienDuong.jpg",
   },
   {
     id: 3,
-    name: "Ben Johns",
-    description: "Veteran player with multiple championship titles",
-    image:
-      "https://kenh14cdn.com/203336854389633024/2025/3/7/3fa1240887c69854a2a94c0cbd683e5-1741362042377-17413620425271185917543.jpg",
+    name: "Nguyễn Thúc Cương",
+    description: "Ban Giám Đốc",
+    image: "/assets/image/NguyenThucCuong.jpg",
   },
   {
     id: 4,
-    name: "Agassi",
-    description: "Rising star in the competitive gaming scene",
-    image:
-      "https://joola.com/cdn/shop/articles/Agassi_x_JOOLA.jpg?v=1724109173",
+    name: "Lê Thị Minh Lợi",
+    description: "Phòng Tổng Hợp",
+    image: "/assets/image/LeThiMinhLoi.jpg",
   },
   {
     id: 5,
-    name: "Quang Dương",
-    description: "Technical specialist with unmatched precision",
-    image:
-      "https://www.ppatour.com/wp-content/uploads/2025/03/Quang-Duong-1.png",
+    name: "Nguyễn Thị Diễm Hà",
+    description: "Phòng Kế Toán",
+    image: "/assets/image/NguyenThiDiemHa.jpg",
   },
   {
     id: 6,
-    name: "Staksrud",
-    description: "Stealth expert with incredible reaction times",
-    image:
-      "https://www.ppatour.com/wp-content/uploads/2025/03/federico-staksrud.png",
+    name: "Nguyễn Hải Linh",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/NguyenHaiLinh.jpg",
   },
   {
     id: 7,
-    name: "Lý Hoàng Nam",
-    description: "Comeback king who never gives up",
-    image:
-      "https://thethaovanhoa.mediacdn.vn/372676912336973824/2025/2/12/4771108451221778009582687815826991824825018054n-17393507728611391107692.jpg",
+    name: "Nguyễn Thị Kim Mỵ",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/NguyenThiKimMy.jpg",
   },
   {
     id: 8,
-    name: "Trịnh Linh Giang",
-    description: "Cool under pressure with strategic thinking",
-    image:
-      "https://kenh14cdn.com/203336854389633024/2024/10/10/46262510226118114690107848354404558355250322n-1728518599271942620879-1728523061432-172852306157283268294.jpg",
+    name: "Đặng Triều Dương",
+    description: "Phòng Kinh Doanh",
+    image: "/assets/image/DangTrieuDuong.jpg",
   },
   {
     id: 9,
-    name: "Trương Vinh Hiển",
-    description: "Powerhouse player with aggressive playstyle",
-    image:
-      "https://kenh14cdn.com/203336854389633024/2024/6/23/6cc63187-f120-49e0-b817-25c94a3fc60d-1719152712051846998207.jpeg",
+    name: "Nguyễn Thị Thanh Bình",
+    description: "Phòng Kinh Doanh",
+    image: "/assets/image/NguyenThiThanhBinh.jpg",
   },
   {
     id: 10,
-    name: "Đạt Trố",
-    description: "Quick reflexes and innovative strategies",
-    image: "https://i.ytimg.com/vi/EtSZzT0X43s/maxresdefault.jpg",
+    name: "Trần Quốc Việt",
+    description: "Phòng Giải Pháp Tích Hợp",
+    image: "/assets/image/TranQuocViet.png",
   },
   {
     id: 11,
-    name: "Tardio",
-    description: "Fast-paced player with explosive gameplay",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYA5ufGQY1Vc6ztIQTy8WPnyU63BZs9HfV7g&s",
+    name: "Trần Minh Đạt",
+    description: "Phòng Kinh Doanh",
+    image: "/assets/image/TranMinhDat.jpg",
   },
   {
     id: 12,
-    name: "Patriquin",
-    description: "Mysterious player with unpredictable tactics",
-    image:
-      "https://www.ppatour.com/wp-content/uploads/2025/03/Hayden-Patriquin-1.png",
+    name: "Bùi Thị Thu Hiền",
+    description: "Phòng Kế Toán",
+    image: "/assets/image/BuiThiThuHien.jpg",
+  },
+  {
+    id: 13,
+    name: "Đặng Khánh Huyền",
+    description: "Phòng Kinh Doanh",
+    image: "/assets/image/DangKhanhHuyen.jpg",
+  },
+  {
+    id: 14,
+    name: "Đỗ Hải Long",
+    description: "Phòng Kinh Doanh",
+    image: "/assets/image/DoHaiLong.jpg",
+  },
+  {
+    id: 15,
+    name: "Dương Quốc Khánh",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/DuongQuocKhanh.jpg",
+  },
+  {
+    id: 16,
+    name: "Hoàng Phương Anh",
+    description: "Phòng Kế Toán",
+    image: "/assets/image/HoangPhuongAnh.jpg",
+  },
+  {
+    id: 17,
+    name: "Hoàng Quang Huy",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/HoangQuangHuy.jpg",
+  },
+
+  {
+    id: 18,
+    name: "Lê Thị Nhân",
+    description: "Phòng Kế Toán",
+    image: "/assets/image/LeThiNhan.jpg",
+  },
+  {
+    id: 19,
+    name: "Lều Thị Thùy",
+    description: "Phòng Kinh Doanh",
+    image: "/assets/image/LeuThiThuy.jpg",
+  },
+  {
+    id: 20,
+    name: "Lưu Văn Tấn",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/LuuVanTan.jpg",
+  },
+  {
+    id: 21,
+    name: "Nguyễn Hải Nam",
+    description: "Phòng Giải Pháp Tích Hợp",
+    image: "/assets/image/NguyenHaiNam.jpg",
+  },
+  {
+    id: 22,
+    name: "Nguyễn Khắc Hoàn",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/NguyenKhacHoan.jpg",
+  },
+  {
+    id: 23,
+    name: "Vũ Thị Thùy Dung",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/VuThiThuyDung.jpg",
+  },
+  {
+    id: 24,
+    name: "Vũ Tư Bản",
+    description: "Phòng Giải Pháp Tích Hợp",
+    image: "/assets/image/VuTuBan.png",
   },
 ];
 
