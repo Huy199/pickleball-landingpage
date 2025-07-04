@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const members = [
   {
     id: 1,
@@ -145,6 +147,12 @@ const members = [
     description: "Phòng Giải Pháp Tích Hợp",
     image: "/assets/image/VuTuBan.png",
   },
+  {
+    id: 24,
+    name: "Nguyễn Đình Doanh",
+    description: "Phòng Phần Mềm 1",
+    image: "/assets/image/NguyenDinhDoanh.jpg",
+  },
 ];
 
 export default function MembersPage() {
@@ -164,11 +172,16 @@ export default function MembersPage() {
               key={member.id}
               className="overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105"
             >
-              <div className="aspect-square overflow-hidden">
-                <img
+              <div className="relative aspect-square overflow-hidden">
+                <Image
                   src={member.image || "/placeholder.svg"}
                   alt={member.name}
-                  className="h-full w-full object-cover"
+                  fill
+                  className="object-inherit"
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAAcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-6">
