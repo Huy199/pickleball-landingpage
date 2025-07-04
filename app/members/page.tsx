@@ -47,41 +47,41 @@ const members = [
     id: 7,
     name: "Nguyễn Thị Kim Mỵ",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/NguyenThiKimMy.JPG",
+    image: "/assets/image/NTKMy.JPG",
   },
   {
     id: 8,
     name: "Vũ Thị Thùy Dung",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/VuThiThuyDung.JPG",
+    image: "/assets/image/VTTDung.JPG",
   },
 
   {
     id: 9,
     name: "Nguyễn Đình Doanh",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/NguyenDinhDoanh.JPG",
+    image: "/assets/image/NDDoanh.JPG",
   },
 
   {
     id: 10,
     name: "Lê Thị Nhân",
     description: "Phòng Kế Toán",
-    image: "/assets/image/LeThiNhan.JPG",
+    image: "/assets/image/LTNhan.JPG",
   },
 
   {
     id: 11,
     name: "Lưu Văn Tấn",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/LuuVanTan.JPG",
+    image: "/assets/image/LVTan.JPG",
   },
 
   {
     id: 12,
     name: "Hoàng Quang Huy",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/HoangQuangHuy.JPG",
+    image: "/assets/image/HQHuy.JPG",
   },
 
   // {
