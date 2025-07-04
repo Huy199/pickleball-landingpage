@@ -22,13 +22,13 @@ const members = [
     id: 4,
     name: "Lê Thị Minh Lợi",
     description: "Phòng Tổng Hợp",
-    image: "/assets/image/LeThiMinhLoi.jpg",
+    image: "/assets/image/LeThiMinhLoi.JPG",
   },
   {
     id: 5,
     name: "Nguyễn Thị Diễm Hà",
     description: "Phòng Kế Toán",
-    image: "/assets/image/NguyenThiDiemHa.jpg",
+    image: "/assets/image/NguyenThiDiemHa.JPG",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const members = [
     id: 14,
     name: "Đỗ Hải Long",
     description: "Phòng Kinh Doanh",
-    image: "/assets/image/DoHaiLong.jpg",
+    image: "/assets/image/DoHaiLong.JPG",
   },
   {
     id: 15,
