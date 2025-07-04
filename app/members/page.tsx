@@ -57,28 +57,28 @@ const members = [
   },
 
   {
-    id: 25,
+    id: 9,
     name: "Nguyễn Đình Doanh",
     description: "Phòng Phần Mềm 1",
     image: "/assets/image/NguyenDinhDoanh.JPG",
   },
 
   {
-    id: 18,
+    id: 10,
     name: "Lê Thị Nhân",
     description: "Phòng Kế Toán",
     image: "/assets/image/LeThiNhan.JPG",
   },
 
   {
-    id: 20,
+    id: 11,
     name: "Lưu Văn Tấn",
     description: "Phòng Phần Mềm 1",
     image: "/assets/image/LuuVanTan.JPG",
   },
 
   {
-    id: 17,
+    id: 12,
     name: "Hoàng Quang Huy",
     description: "Phòng Phần Mềm 1",
     image: "/assets/image/HoangQuangHuy.JPG",
