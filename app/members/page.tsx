@@ -8,7 +8,7 @@ const members = [
     id: 1,
     name: "Nguyễn Hải Linh",
     description: "Phòng Phần Mềm 1",
-    image: "/assets/image/NGLinh.JPG",
+    image: "/assets/image/NHLinh.png",
   },
   {
     id: 2,
@@ -221,7 +221,7 @@ function MemberCard({
             src={member.image || "/placeholder.svg"}
             alt={member.name}
             fill
-            className={`object-center transition-opacity duration-300 ${
+            className={`object-cover transition-opacity duration-300 ${
               imageLoaded ? "opacity-100" : "opacity-0"
             }`}
             loading="lazy"
